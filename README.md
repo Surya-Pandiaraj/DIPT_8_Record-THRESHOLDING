@@ -4,14 +4,14 @@
 
 ## EX. No. 8 : RECORD THRESHOLDING
 
-## Aim
+## Aim:
 To segment the image using global thresholding, adaptive thresholding and Otsu's thresholding using python and OpenCV.
 
-## Software Required
+## Software Required:
 1. Anaconda - Python 3.7
 2. OpenCV
 
-## Algorithm
+## Algorithm:
 
 ### Step1:
 Load the necessary packages
