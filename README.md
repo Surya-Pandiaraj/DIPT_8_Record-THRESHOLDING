@@ -1,1 +1,5 @@
-# DIPT_8_Record-THRESHOLDING
+### NAME: SURYA P <br>
+### REG NO: 212224230280 <br> 
+### Date: 
+
+## EX. No. 8 : RECORD THRESHOLDING
