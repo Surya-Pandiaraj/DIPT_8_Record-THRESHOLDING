@@ -4,10 +4,34 @@
 
 ## EX. No. 8 : RECORD THRESHOLDING
 
+## Aim
+To segment the image using global thresholding, adaptive thresholding and Otsu's thresholding using python and OpenCV.
 
+## Software Required
+1. Anaconda - Python 3.7
+2. OpenCV
+
+## Algorithm
+
+### Step1:
+Load the necessary packages
+
+### Step2:
+Read the Image and convert to grayscale
+### Step3:
+Use Global thresholding to segment the image.
+
+### Step4:
+Use Adaptive thresholding to segment the image.
+
+### Step5:
+Use Otsu's method to segment the image and display the results.
+## Program:
+
+NAME : Surya P
+REG NO :212224230280
 
 ```
-
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -34,8 +58,11 @@ adaptive_thresholded = cv2.adaptiveThreshold(gray_image, 255, cv2.ADAPTIVE_THRES
 # Apply Otsu's method for optimal thresholding
 _, otsu_thresholded = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-
-
+#Original Image
+plt.subplot(2,2,1)
+plt.imshow(cv2.cvtColor(image,cv2.COLOR_BGR2RGB))
+plt.title('Original Image')
+plt.axis('off')
 
 # Global Thresholding
 plt.subplot(2, 2, 2)
@@ -59,82 +86,13 @@ plt.axis('off')
 plt.tight_layout()
 plt.show()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
+
+## Output:
+<img width="675" height="602" alt="image" src="https://github.com/user-attachments/assets/3bb12df8-867b-4e97-a72d-5b92faa17635" />
+
+
+## Result: 
+Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
+
+
